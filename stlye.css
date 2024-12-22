@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* 인덱스 스타일 */
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    /* background-color: black 
+    opacity: 0.4*/
+    background: radial-gradient(
+        rgba(0, 0, 0, 0.05),
+        rgba(0, 0, 0, 0.9)
+    );
+}
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 3;
+}
+.box01{
+    width: 100%;
+    padding-top: 216px;
+    text-align: center;
+}
+.box02{
+    width: 100%;
+    padding-top: 124px;
+    text-align: center;
+    font-family: "Noto Sans KR", serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 29px;
+    color: white;
+}
+.box03{
+    width: 100%;
+    padding-top: 124px;
+    text-align: center;
+    font-family: "Noto Sans KR", serif;
+    font-size: 34px;
+    color: #F26314;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 29px;
+}
+.box04{
+    width: 100%;
+    padding-top: 57px;
+    text-align: center;
+}
+
+/* 서브페이지 스타일 */
+
+.b01 {
+    position: relative;
+    background-image: url(img/b01.png);
+    width: 430px;
+    height: 851px;
+} 
+.b01 >.b01_i01 {
+    position: absolute;
+    width: 485px;
+    height: 551px;
+    left: -27px;
+    top: 319px;
+}
+.b01 >.b01_i02 {
+    position: absolute;
+    width: 323px;
+    height: 222px;
+    left: 53px;
+    top: 83px;
+}
+
+.b02 {
+    position: relative;
+    background-image: url(img/b02.png);
+    width: 430px;
+    height: 925px;
+}
+.b02 > .b02_i01 {
+    position: absolute;
+    width: 240.36px;
+    height: 240.39px;
+    left: 85px;
+    top: 350px;
+}
+.b02 > .t {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 57px;
+    font-weight: 700;
+    color: white;
+    top: 40px;
+    left: 18px;
+}
+.b02 > .t2 {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 50px;
+    color: white;
+    top: 250px;
+    left: 40px;
+}
+.b02 > .t3 {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 60px;
+    color: white;
+    top: 600px;
+    left: 16px;
+}
+
+.b03 {
+    position: relative;
+    background-image: url(img/b03.png);
+    width: 430px;
+    height: 929px;
+}
+.b03 > .t {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: white;
+    top: 30px;
+    left: 140px;
+}
+.b03 > .t2 {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: white;
+    top: 100px;
+    left: 45px;
+}
+
+.b04 {
+    position: relative;
+    background-image: url(img/b04.png);
+    width: 430px;
+    height: 941px;
+}
+.b04 > .t {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: white;
+    top: 30px;
+    left: 180px;
+}
+.b04 > .t2 {
+    position: absolute;
+    text-align: left;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    color: white;
+    top: 240px;
+    left: 30px;
+}
+
+.b05 {
+    position: relative;
+    background-image: url(img/b05.png);
+    width: 430px;
+    height: 949px;
+}
+.b05 > .t {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: white;
+    top: 30px;
+    left: 180px;
+}
+.b05 > .t2 {
+    position: absolute;
+    text-align: right;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    color: white;
+    top: 240px;
+    left: 45px;
+}
+.b06 {
+    position: relative;
+    background-image: url(img/b06.png);
+    width: 430px;
+    height: 922px;
+}
+.b06 > .t {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: white;
+    top: 30px;
+    left: 180px;
+}
+.b06 > .t2 {
+    position: absolute;
+    text-align: left;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    color: white;
+    top: 255px;
+    left: 30px;
+}
+
+.b07 {
+    position: relative;
+    background-image: url(img/b07.png);
+    width: 430px;
+    height: 932px;
+}
+.b07 > .t {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    top: 80px;
+    left: 160px;
+}
+.b07 > .t2 {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+    top: 120px;
+    left: 45px;
+}
+.b07 > .t3 {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    top: 580px;
+    left: 20px;
+}
+
+.b08 {
+    position: relative;
+    background-image: url(img/b08.png);
+    width: 430px;
+    height: 930px;
+}
+.b08 > .t {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    top: 80px;
+    left: 120px;
+}
+.b08 > .t2 {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+    top: 140px;
+    left: 60px;
+}
+.b08 > .t3 {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    top: 640px;
+    left: 68px;
+}
+
+.b09 {
+    position: relative;
+    background-image: url(img/b09.png);
+    width: 430px;
+    height: 930px;
+}
+.b09 > .t {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    top: 80px;
+    left: 120px;
+}
+.b09 > .t2 {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+    top: 140px;
+    left: 75px;
+}
+.b09 > .t3 {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    top: 640px;
+    left: 86px;
+}
+
+.b10 {
+    position: relative;
+    background-image: url(img/b10.png);
+    width: 430px;
+    height: 417px;
+}
+.b10 > .b10_i01 {
+    position: absolute;
+    width: 415px;
+    height: 66px;
+    left: 8px;
+    top: 350px;
+}
+.b10 > .b10_i02 {
+    position: absolute;
+    width: 125px;
+    height: 65px;
+    left: 155px;
+    top: 150px;
+}
+.b10 > .b10_i03 {
+    position: absolute;
+    width: 145px;
+    height: 145px;
+    left: 145px;
+    top: 1px;
+}
+.b10 > .t {
+    position: absolute;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+    color: white;
+    top: 239px;
+    left: 28px;
+}
